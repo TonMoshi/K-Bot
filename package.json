@@ -1,0 +1,34 @@
+{
+  "name": "k-bot",
+  "version": "1.0.0",
+  "description": "A bot for Discord developed with discord.js",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarodieg/K-Bot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "discord.js"
+  ],
+  "author": "jarodieg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarodieg/K-Bot/issues"
+  },
+  "homepage": "https://github.com/jarodieg/K-Bot#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.2",
+    "discord.js": "^11.2.1",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "libsodium-wrappers": "^0.5.4",
+    "node-opus": "^0.2.6",
+    "opusscript": "0.0.3",
+    "sodium": "^2.0.1",
+    "uws": "^0.14.5"
+  }
+}
